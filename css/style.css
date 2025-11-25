@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding: 30px 0;
+  padding: 10px 0;
   height: 92px;
   position: fixed;
   left: 0;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-fixed {
   background: linear-gradient(45deg, #1de099, #1dc8cd);
-  padding: 20px 0;
+  padding: 15px 0;
   height: 72px;
   transition: all 0.5s;
 }
@@ -217,13 +217,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .product-screens img {
   box-shadow: 0px -2px 19px 4px rgba(0, 0, 0, 0.29);
-  width: 400px;
 }
 
 #intro .product-screens .product-screen-1 {
   position: absolute;
   z-index: 30;
-  left: calc(50% + 110px);
+  left: calc(50% + 30px);
   bottom: 0;
   height: 690px;
 }
@@ -231,7 +230,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro .product-screens .product-screen-2 {
   position: absolute;
   z-index: 20;
-  left: calc(50% - 190px);
+  left: calc(50% - 290px);
   bottom: 0;
   height: 600px;
 }
@@ -239,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro .product-screens .product-screen-3 {
   position: absolute;
   z-index: 10;
-  left: calc(50% - 474px);
+  left: calc(50% - 625px);
   bottom: 0;
   height: 559px;
 }
@@ -552,7 +551,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-img {
-  height: 510px;
+  height: 585px;
   overflow: hidden;
 }
 
@@ -573,20 +572,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .content .h2 {
   color: #333;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 30px;
+
 }
 
 #about .content h3 {
   color: #777;
-  font-weight: 300;
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 25px;
   line-height: 26px;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 
 #about .content p {
-  line-height: 26px;
+  line-height: 24px;
+
 }
 
 #about .content p:last-child {
@@ -594,7 +595,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content i {
-  font-size: 20px;
+  font-size: 28px;
   padding-right: 4px;
   color: #1dc8cd;
 }
@@ -643,22 +644,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #features .icon i {
   color: #666666;
-  font-size: 40px;
+  font-size: 50px;
   transition: 0.5s;
 }
 
 #features .icon i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #1dc8cd 0%, #55fabe 100%);
+  background: linear-gradient(50deg, #1dc8cd 0%, #55fabe 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 #features .title {
-  font-weight: 300;
+  font-weight: 520;
   margin-bottom: 15px;
-  font-size: 22px;
+  font-size: 26px;
 }
 
 #features .title a {
@@ -682,13 +683,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features h2 {
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 500;
   color: #000;
 }
 
 #advanced-features h3 {
-  font-size: 22px;
+  font-size: 25px;
   line-height: 24px;
   font-weight: 400;
   font-style: italic;
@@ -696,7 +697,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features p {
-  line-height: 24px;
+  line-height: 23px;
   color: #777;
   margin-bottom: 30px;
 }
@@ -1159,7 +1160,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info i {
-  font-size: 32px;
+  font-size: 50px;
   color: #1dc8cd;
   float: left;
   line-height: 1;
