@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 30;
   left: calc(50% + 54px);
   bottom: 0;
-  height: 500px;
+  height: 440px;
 }
 
 #intro .product-screens .product-screen-2 {
@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 20;
   left: calc(50% - 154px);
   bottom: 0;
-  height: 430px;
+  height: 370px;
 }
 
 #intro .product-screens .product-screen-3 {
@@ -239,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 10;
   left: calc(50% - 374px);
   bottom: 0;
-  height: 360px;
+  height: 300px;
 }
 
 @media (max-height: 768px) {
