@@ -28,6 +28,7 @@ a:hover, a:active, a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  font-size: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -211,35 +212,36 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 30px;
   text-align: center;
   width: 100%;
-  height: 530px;
+  height: 630px;
 }
 
 #intro .product-screens img {
   box-shadow: 0px -2px 19px 4px rgba(0, 0, 0, 0.29);
+  width: 400px;
 }
 
 #intro .product-screens .product-screen-1 {
   position: absolute;
   z-index: 30;
-  left: calc(50% + 54px);
+  left: calc(50% + 110px);
   bottom: 0;
-  height: 440px;
+  height: 690px;
 }
 
 #intro .product-screens .product-screen-2 {
   position: absolute;
   z-index: 20;
-  left: calc(50% - 154px);
+  left: calc(50% - 190px);
   bottom: 0;
-  height: 370px;
+  height: 600px;
 }
 
 #intro .product-screens .product-screen-3 {
   position: absolute;
   z-index: 10;
-  left: calc(50% - 374px);
+  left: calc(50% - 474px);
   bottom: 0;
-  height: 300px;
+  height: 559px;
 }
 
 @media (max-height: 768px) {
@@ -546,6 +548,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #about {
   padding: 60px 0;
+
 }
 
 #about .about-img {
@@ -571,13 +574,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content .h2 {
   color: #333;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 #about .content h3 {
   color: #777;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 28px;
   line-height: 26px;
   font-style: italic;
 }
@@ -603,6 +606,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .content ul li {
   padding-bottom: 10px;
+  font-size: 22px;
 }
 
 /* Product Featuress Section
@@ -662,7 +666,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .description {
-  font-size: 14px;
+  font-size: 22px;
   line-height: 24px;
   margin-bottom: 10px;
 }
@@ -684,7 +688,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features h3 {
-  font-size: 16px;
+  font-size: 22px;
   line-height: 24px;
   font-weight: 400;
   font-style: italic;
@@ -1119,7 +1123,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-about p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 24px;
   font-family: "Montserrat", sans-serif;
   color: #888;
@@ -1130,7 +1134,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   background: #fff;
   color: #1dc8cd;
@@ -1164,7 +1168,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .info p {
   padding: 0 0 10px 42px;
   line-height: 28px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 #contact .form #sendmessage {
