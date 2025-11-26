@@ -150,9 +150,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 767px) {
-  #intro .intro-text {
-    padding-top: 50px;
+  #intro {
+    height: auto;           /* đừng khoá 20vh kẻo cắt chữ */
   }
+
+  #intro .intro-text {
+    padding-top: 80px;      /* tuỳ bạn chỉnh cho đẹp */
+  }
+
+  #intro .product-screens {
+    display: none;          /* ẨN TOÀN BỘ KHỐI HÌNH */
+    height: 0;
+  }
+
 }
 
 #intro h2 {
@@ -247,7 +257,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-height: 768px) {
   #intro .product-screens {
-    height: 430px;
+    display: none;
+    height: 0;
   }
   #intro .product-screens .product-screen-1 {
     height: 400px;
@@ -624,12 +635,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 20px;
 }
 
-@media (min-width: 769px) {
+@media (max-width: 768px) {
   #features .features-img {
-    padding-top: 120px;
-    margin-top: -200px;
+    margin-top: 20px;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  #features .features-img img {
+    max-width: 80%;
+    height: auto;
   }
 }
+
 
 #features .features-img img {
   max-width: 100%;
@@ -742,6 +760,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 767px) {
   #advanced-features .advanced-feature-img-right, #advanced-features .advanced-feature-img-left {
     max-width: 100%;
+    max-height: 60vh;
     float: none;
     padding: 0 0 30px 0;
   }
